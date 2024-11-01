@@ -14,7 +14,7 @@ public class Main {
 
     }
 }
-class ReciprocalFraction {
+
     public static double[] CreateReciprocalFraction(double[] n, int amount) {
         double m[]=new double[amount];
         for (int i = 0; i < amount; i++){
@@ -26,7 +26,7 @@ class ReciprocalFraction {
             }
         }
         return m;
-    };
+    }
     public static void start() {
         double[] nums = new double[200];
         double[] permitted = new double[]{0.04, -0.013333333333333334, -0.08333333333333333, -0.025, 0.01818181818181818, 0.043478260869565216, 0.025};
@@ -43,8 +43,8 @@ class ReciprocalFraction {
         }
         System.out.print("\n");
     }
-}
-class Massive {
+
+
     public static void start(){
         double b[] = new double[20];
         double C1[] = new double[20];
@@ -70,8 +70,8 @@ class Massive {
         }
         System.out.print("\n");
     }
-}
-class Matrix{
+
+
     public static void buildVector(){
         double matrix[][] = new double[5][5];
         double vector[] = new double[5];
